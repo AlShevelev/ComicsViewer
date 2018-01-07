@@ -1,1 +1,1 @@
-# ComicsViewer - with this app you can create your comics from image files, import comics from *.pdf, *.cbr and *.cbz files.
+# ComicsViewer - with this app you can create your comic books from separate images and import comics from *.pdf, *.cbr and *.cbz files.
