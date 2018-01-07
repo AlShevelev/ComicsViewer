@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.syleiman.comicsviewer"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <supports-screens android:smallScreens="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="com.syleiman.comicsviewer.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.syleiman.comicsviewer.Activities.Main.MainActivity"
+            android:label="@string/app_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.syleiman.comicsviewer.Activities.Folders.ChooseFolderActivity"
+            android:label="@string/app_title">
+        </activity>
+        <activity
+            android:name="com.syleiman.comicsviewer.Activities.ComicsCreation.SortPagesActivity"
+            android:label="@string/app_title">
+        </activity>
+        <activity
+            android:name="com.syleiman.comicsviewer.Activities.ViewComics.CurlActivity"
+            android:label="@string/app_title">
+        </activity>
+        <activity
+            android:name="com.syleiman.comicsviewer.Activities.MainOptions.MainOptionsActivity"
+            android:label="@string/app_title">
+        </activity>
+        <activity
+            android:name="com.syleiman.comicsviewer.Activities.PagesMap.PagesMapActivity"
+            android:label="@string/app_title">
+        </activity>
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="cv.db"/>
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1"/>
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.syleiman.comicsviewer.Dal.Entities.DbComics,
+                           com.syleiman.comicsviewer.Dal.Entities.DbPage,
+                           com.syleiman.comicsviewer.Dal.Entities.DbOption"/>
+    </application>
+
+</manifest>

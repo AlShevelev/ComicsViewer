@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/bookcase_header_height"
+              android:background="@drawable/bookcase_header_bcg">
+
+    <ImageView
+        android:layout_width="@dimen/bookcase_header_ornament_size"
+        android:layout_height="@dimen/bookcase_header_ornament_size"
+        android:id="@+id/ornamentRight"
+        android:src="@raw/bookcase_header_ornament1"
+        android:layout_gravity="left"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/bookcase_header_ornament_margin"/>
+
+    <ImageView
+        android:layout_width="@dimen/bookcase_header_ornament_size"
+        android:layout_height="@dimen/bookcase_header_ornament_size"
+        android:id="@+id/ornamentLeft"
+        android:src="@raw/bookcase_header_ornament2"
+        android:layout_weight="0"
+        android:layout_marginLeft="@dimen/bookcase_header_ornament_margin"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/bookcase_header_label_allComics"
+        android:id="@+id/allComicsText"
+        android:layout_toEndOf="@id/ornamentLeft"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/bookcase_header_label_active"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/bookcase_header_label_textsize"
+        android:layout_marginLeft="@dimen/bookcase_header_label_margin"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="false"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/bookcase_header_label_recent"
+        android:id="@+id/recentText"
+        android:layout_alignTop="@+id/ornamentLeft"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/bookcase_header_label_inactive"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/bookcase_header_label_textsize"
+        android:layout_marginRight="@dimen/bookcase_header_label_margin"
+        android:layout_toStartOf="@id/ornamentRight"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">LetsMakeYourComics</string>
+    <string name="app_title">Let\'s  make your comics!</string>
+    <string name="app_version">1.0</string>
+
+    <string name="action_add">Add comics</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_back">Back to prior folder</string>
+    <string name="action_choose">Choose folder</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_close">Close</string>
+
+    <string name="dev_root_folder">Device storage</string>
+    <string name="sdcard_root_folder">SD memory card</string>
+
+    <string name="message_box_ok_button">Ok</string>
+    <string name="message_box_cancel_button">Cancel</string>
+    <string name="message_box_yes_button">Yes</string>
+    <string name="message_box_no_button">No</string>
+    <string name="message_box_cant_create_comics_title">Can\'t create comics</string>
+    <string name="message_box_no_imges_text">There are no images (png, jpg, jpeg or gif) in the folder</string>
+
+    <string name="message_box_delete_query_title">Delete comis</string>
+    <string name="message_box_delete_query">Are you sure you want to delete this comic?</string>
+
+    <string name="dialog_comics_name_hint">Title of comics</string>
+    <string name="dialog_comics_name_title">Title and options</string>
+    <string name="dialog_comics_name_private">Private comics (need password for view)</string>
+    <string name="dialog_goto_page_title">Choose page to go</string>
+
+    <string name="message_box_no_cant_create_preview">Can\'t create preview</string>
+
+    <string name="message_sorting_tip">Drag pages from one list to other for sorting</string>
+
+    <string name="message_choose_folder_tip">Choose folder with images (png, jpg, jpeg or gif) to create comics</string>
+
+    <string name="message_in_progress">One moment, please...</string>
+
+    <string name="message_cant_create_comics_title">Oh! Something happened, can\'t create the comics. Sorry...</string>
+    <string name="message_cant_delete_comics_title">Oh! Something happened, can\'t delete the comics. Sorry...</string>
+    <string name="message_cant_update_comics_title">Oh! Something happened, can\'t update the comics. Sorry...</string>
+
+    <string name="message_cant_read_comics">Oh! Something happened, can\'t read comics. Sorry...</string>
+
+    <string name="message_tap_to_preview">Tap on any image to preview</string>
+
+    <string name="pages_processing_progress">One moment, please: %1$s pages from %2$s were processed</string>
+
+    <string name="main_options_hidden">Private comics</string>
+    <string name="main_options_other">Other</string>
+    <string name="version">Version</string>
+
+    <string name="main_options_create_password">Create password</string>
+    <string name="main_options_create_password_hint">Create password to show private comics</string>
+
+    <string name="main_options_enter_password">Enter password</string>
+    <string name="main_options_enter_password_hint">Enter password to show private comics</string>
+
+    <string name="main_options_change_password">Change password</string>
+    <string name="main_options_change_password_hint">Change password for private comics</string>
+    <string name="title_activity_main_options">Options</string>
+
+    <string name="dialog_create_password_title">Create password</string>
+    <string name="dialog_enter_password_title">Enter password</string>
+    <string name="dialog_change_password_title">Change password</string>
+    <string name="dialog_password">Password</string>
+    <string name="dialog_showPassword">Show password</string>
+    <string name="dialog_passwordHint">Hint for the password</string>
+    <string name="dialog_passwordHint_enter">Hint:</string>
+
+    <string name="message_invalid_password">Password is invalid. Please try again</string>
+
+    <string name="bookcase_header_label_allComics">All comics</string>
+    <string name="bookcase_header_label_recent">Recent</string>
+    <string name="BookscaseContextMenuEdit">Edit</string>
+    <string name="BookscaseContextMenuDelete">Delete</string>
+
+    <string name="menuitem_gotopage">Go to page</string>
+    <string name="menuitem_pages">Pages</string>
+    <string name="menuitem_close_comics">Close comics</string>
+    <string name="goto_page_dialog_hint">Page number to go (from %1$s to %2$s)</string>
+    <string name="pageTitle">Page %1$s</string>
+
+    <string name="message_tap_again_to_change_page">Tap again to set this page as a current</string>
+
+    <string name="private_comics_title">Private comics %1$s</string>
+    <string name="private_comics_create_password_message">To view private comics you need to create a password first</string>
+</resources>

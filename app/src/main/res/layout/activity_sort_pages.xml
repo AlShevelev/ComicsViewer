@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.syleiman.comicsviewer.Activities.ComicsCreation.SortPagesActivity"
+    android:label="@string/app_title">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.syleiman.comicsviewer.Activities.ComicsCreation.DragLists.LinearLayoutDrag
+            android:id="@+id/panelLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listviewLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.syleiman.comicsviewer.Activities.ComicsCreation.DragLists.LinearLayoutDrag>
+
+        <com.syleiman.comicsviewer.Activities.ComicsCreation.DragLists.LinearLayoutDrag
+            android:id="@+id/panelRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listviewRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.syleiman.comicsviewer.Activities.ComicsCreation.DragLists.LinearLayoutDrag>
+    </LinearLayout>
+
+    <com.syleiman.comicsviewer.Common.CustomControls.ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/previewProgressBar"
+        android:visibility="invisible"
+        android:gravity = "center_vertical|center_horizontal"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.syleiman.comicsviewer.Activities.MainOptions.MainOptionsActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@color/folders_path_panel"
+        android:textColor="@android:color/primary_text_dark"
+        android:text="@string/main_options_hidden"
+        android:paddingTop="@dimen/options_section_header_top_padding"
+        android:paddingBottom="@dimen/options_section_header_bottom_padding"
+        android:paddingLeft="@dimen/options_left_padding"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/options_left_padding"
+        android:paddingTop="@dimen/options_item_top_padding"
+        android:id="@+id/createPassword"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/main_options_create_password"
+            android:textColor="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/main_options_create_password_hint"
+            android:paddingTop="@dimen/options_item_hint_top_padding"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#6a6a6a"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/options_item_bottom_margin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/options_left_padding"
+        android:paddingTop="@dimen/options_item_top_padding"
+        android:id="@+id/enterPassword">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/main_options_enter_password"
+            android:textColor="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/main_options_enter_password_hint"
+            android:paddingTop="@dimen/options_item_hint_top_padding"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#6a6a6a"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/options_item_bottom_margin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/options_left_padding"
+        android:paddingTop="@dimen/options_item_top_padding"
+        android:id="@+id/changePassword">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/main_options_change_password"
+            android:textColor="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/main_options_change_password_hint"
+            android:paddingTop="@dimen/options_item_hint_top_padding"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#6a6a6a"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/options_item_bottom_margin"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@color/folders_path_panel"
+        android:textColor="@android:color/primary_text_dark"
+        android:text="@string/main_options_other"
+        android:paddingTop="@dimen/options_section_header_top_padding"
+        android:paddingBottom="@dimen/options_section_header_bottom_padding"
+        android:paddingLeft="@dimen/options_left_padding"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/options_left_padding"
+        android:paddingTop="@dimen/options_item_top_padding"
+        android:paddingBottom="@dimen/options_item_bottom_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/version"
+            android:id="@+id/textView3"
+            android:textColor="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/app_version"
+            android:id="@+id/textView4"
+            android:paddingTop="@dimen/options_item_hint_top_padding"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#6a6a6a"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/options_item_bottom_margin"/>
+    </LinearLayout>
+</LinearLayout>

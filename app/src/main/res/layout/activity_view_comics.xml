@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:tools="http://schemas.android.com/tools"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:paddingLeft="0dp"
+			 android:paddingRight="0dp"
+			 android:paddingTop="0dp"
+			 android:paddingBottom="0dp"
+			 tools:context="com.syleiman.comicsviewer.Activities.ViewComics.CurlActivity">
+	<com.syleiman.comicsviewer.Activities.ViewComics.CurlView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/curl"	/>
+
+	<ImageView
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:id="@+id/comicsViewMenu"
+		android:layout_gravity="right|top"
+		android:src="@drawable/ic_menu_gray_48dp"
+		android:layout_marginRight="5dp"/>
+</FrameLayout>

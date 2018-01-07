@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="folders_path_panel">#ff002d3e</color>
+    <color name="drag">#ff969694</color>
+    <color name="bookcase_header_label_active">#e6010001</color>
+    <color name="bookcase_header_label_inactive">#67010001</color>
+    <color name="bookcase_cover_shadow">#80000000</color>
+    <color name="bitmap_icon_bcg">#80808080</color>
+</resources>

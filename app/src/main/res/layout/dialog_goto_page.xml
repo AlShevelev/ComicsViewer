@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/pageNumber"
+        android:numeric="integer|decimal"
+        android:layout_marginLeft="@dimen/dialog_control_left_margin"
+        android:layout_marginTop="@dimen/dialog_control_top_margin"
+        android:layout_marginRight="@dimen/dialog_control_right_margin"
+        android:maxLength="4"
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/goto_page_dialog_hint"
+        android:id="@+id/hint"
+        android:layout_marginBottom="@dimen/dialog_control_bottom_margin"
+        android:layout_marginLeft="@dimen/dialog_control_left_margin"
+        android:layout_marginTop="@dimen/options_item_hint_top_padding"
+        android:layout_marginRight="@dimen/dialog_control_right_margin"/>
+
+</LinearLayout>

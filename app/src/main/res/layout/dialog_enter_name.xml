@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/et_comics_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_control_top_margin"
+        android:layout_marginLeft="@dimen/dialog_control_left_margin"
+        android:layout_marginRight="@dimen/dialog_control_right_margin"
+        android:layout_marginBottom="@dimen/dialog_control_bottom_margin"
+        android:hint="@string/dialog_comics_name_hint"
+        android:maxLength="150"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_comics_name_private"
+        android:id="@+id/isPrivateComics"
+        android:layout_marginLeft="@dimen/dialog_control_left_margin"
+        android:layout_marginRight="@dimen/dialog_control_right_margin"
+        android:layout_marginBottom="@dimen/dialog_control_bottom_margin"
+        android:hint="@string/dialog_comics_name_private"/>
+</LinearLayout>

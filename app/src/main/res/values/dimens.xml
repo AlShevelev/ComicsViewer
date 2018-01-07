@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="options_left_padding">10dp</dimen>
+    <dimen name="options_section_header_top_padding">3dp</dimen>
+    <dimen name="options_section_header_bottom_padding">3dp</dimen>
+    <dimen name="options_item_top_padding">4dp</dimen>
+    <dimen name="options_item_bottom_padding">4dp</dimen>
+    <dimen name="options_item_hint_top_padding">4dp</dimen>
+    <dimen name="options_item_bottom_margin">4dp</dimen>
+    <dimen name="dialog_control_top_margin">16dp</dimen>
+    <dimen name="dialog_control_bottom_margin">16dp</dimen>
+    <dimen name="dialog_control_left_margin">4dp</dimen>
+    <dimen name="dialog_control_right_margin">4dp</dimen>
+    <dimen name="dialog_control_top_margin_half">8dp</dimen>
+    <dimen name="actionbar_height">40dp</dimen>
+    <dimen name="bookcase_header_height">48dp</dimen>
+    <dimen name="bookcase_header_ornament_size">36dp</dimen>
+    <dimen name="bookcase_header_ornament_margin">6dp</dimen>
+    <dimen name="bookcase_header_label_margin">15dp</dimen>
+    <dimen name="bookcase_header_label_textsize">20sp</dimen>
+    <dimen name="comics_cover_padding">13dp</dimen>
+</resources>

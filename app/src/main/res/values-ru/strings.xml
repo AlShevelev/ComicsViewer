@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LetsMakeYourComics</string>
+    <string name="app_title">Создай свой комикс!</string>
+    <string name="app_version">1.0</string>
+
+    <string name="action_add">Добавить комикс</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_back">На предыдущую папку</string>
+    <string name="action_choose">Выберите папку</string>
+    <string name="action_accept">Выбрать</string>
+    <string name="action_close">Закрыть</string>
+
+    <string name="dev_root_folder">Внутренняя память</string>
+    <string name="sdcard_root_folder">Карта памяти</string>
+
+    <string name="message_box_ok_button">Ok</string>
+    <string name="message_box_cancel_button">Отмена</string>
+    <string name="message_box_yes_button">Да</string>
+    <string name="message_box_no_button">Нет</string>
+    <string name="message_box_cant_create_comics_title">Не удалось создать комикс</string>
+    <string name="message_box_no_imges_text">В выбранной папке нет изображений (png, jpg, jpeg или gif)</string>
+
+    <string name="message_box_delete_query_title">Удаление комикса</string>
+    <string name="message_box_delete_query">Действительно удалить этот комикс?</string>
+
+    <string name="dialog_comics_name_hint">Заголовок комикса</string>
+    <string name="dialog_comics_name_title">Заголовок и настройки</string>
+    <string name="dialog_comics_name_private">Закрытый комикс (для просмотра нужен пароль)</string>
+    <string name="dialog_goto_page_title">Выберите страницу для перехода</string>
+
+    <string name="message_box_no_cant_create_preview">Не удалось создать предпросмотр</string>
+
+    <string name="message_sorting_tip">Для сортировки сраниц перетащите их из одного списка в другой</string>
+
+    <string name="message_choose_folder_tip">Выберите каталог с изображениями (png, jpg, jpeg или gif) для создания комикса</string>
+
+    <string name="message_in_progress">Секундочку...</string>
+
+    <string name="message_cant_create_comics_title">Ой! Что-то случилось. Не удалось создать комикс...</string>
+    <string name="message_cant_delete_comics_title">Ой! Что-то случилось. Не удалось удалить комикс...</string>
+    <string name="message_cant_update_comics_title">Ой! Что-то случилось. Не удалось обновить комикс...</string>
+
+    <string name="message_cant_read_comics">Ой! Что-то случилось. Не удалось прочитать комикс...</string>
+
+    <string name="message_tap_to_preview">Нажмите на изображение для его предпросмотра</string>
+
+    <string name="pages_processing_progress">Секундочку: обработано %1$s страниц из %2$s</string>
+
+    <string name="main_options_hidden">Закрытые комиксы</string>
+    <string name="main_options_other">Другое</string>
+    <string name="version">Версия</string>
+
+    <string name="main_options_create_password">Создание пароля</string>
+    <string name="main_options_create_password_hint">Создайте пароль для показа закрытых комиксов</string>
+
+    <string name="main_options_enter_password">Ввод пароля</string>
+    <string name="main_options_enter_password_hint">Введите пароль для показа закрытых комиксов</string>
+
+    <string name="main_options_change_password">Смена пароля</string>
+    <string name="main_options_change_password_hint">Смените пароль для доступа к закрытым комиксам</string>
+    <string name="title_activity_main_options">Настройки</string>
+
+    <string name="dialog_create_password_title">Создание пароля</string>
+    <string name="dialog_enter_password_title">Ввод пароля</string>
+    <string name="dialog_change_password_title">Смена пароля</string>
+    <string name="dialog_password">Пароль</string>
+    <string name="dialog_showPassword">Показать пароль</string>
+    <string name="dialog_passwordHint">Подсказка для пароля</string>
+    <string name="dialog_passwordHint_enter">Подсказка:</string>
+
+    <string name="message_invalid_password">Неправильный пароль. Попробуйте еще раз</string>
+
+    <string name="bookcase_header_label_allComics">Все комиксы</string>
+    <string name="bookcase_header_label_recent">Последние</string>
+    <string name="BookscaseContextMenuEdit">Редактировать</string>
+    <string name="BookscaseContextMenuDelete">Удалить</string>
+
+    <string name="menuitem_gotopage">Перейти на страницу</string>
+    <string name="menuitem_pages">Страницы</string>
+    <string name="menuitem_close_comics">Закрыть комикс</string>
+    <string name="goto_page_dialog_hint">Введите номер страницы для перехода (с %1$s по %2$s)</string>
+    <string name="pageTitle">Страница %1$s</string>
+
+    <string name="message_tap_again_to_change_page">Нажмите еще раз, чтобы сделать эту страницу текущей</string>
+
+    <string name="private_comics_title">Закрытый комикс %1$s</string>
+    <string name="private_comics_create_password_message">Для первого просмотра закрытого комикса вам надо создать пароль</string>
+</resources>
